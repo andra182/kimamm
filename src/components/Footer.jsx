@@ -1,4 +1,8 @@
 import React from "react";
+import fb from "/fb.png";
+import ig from "/ig.png";
+import x from "/x.png";
+import tiktok from "/tiktok.png";
 
 const Footer = () => {
   return (
@@ -28,29 +32,21 @@ const Footer = () => {
           <p className="text-2xl font-medium">Follow Us</p>
           <div className="flex gap-4">
             <a href="https://www.facebook.com/">
-              <img
-                src="/src/assets/fb.png"
-                alt=""
-                className="h-8 w-16 object-cover"
-              />
+              <img src={fb} alt="" className="h-8 w-16 object-cover" />
             </a>
             <a href="https://www.instagram.com/">
-              <img
-                src="/src/assets/ig.png"
-                alt=""
-                className="h-8 w-8 mr-4 object-cover"
-              />
+              <img src={ig} alt="" className="h-8 w-8 mr-4 object-cover" />
             </a>
             <a href="https://www.twitter.com/">
               <img
-                src="/src/assets/x.png"
+                src={x}
                 alt=""
                 className="h-8 w-8 object-cover rounded-full"
               />
             </a>
             <a href="https://www.tiktok.com/">
               <img
-                src="/src/assets/tiktok.png"
+                src={tiktok}
                 alt=""
                 className="h-8 w-8 object-cover ml-4 bg-black rounded-full"
               />

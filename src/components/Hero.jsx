@@ -1,4 +1,6 @@
 import React from "react";
+import hero from "/kimamm-hero-bg.png";
+import hero_logo from "/hero-title-logo.png";
 
 const Hero = () => {
   return (
@@ -6,7 +8,7 @@ const Hero = () => {
       <div
         className="w-full h-screen py-48 px-44"
         style={{
-          backgroundImage: "url('/src/assets/kimamm-hero-bg.png')",
+          backgroundImage: `url(${hero})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -19,7 +21,7 @@ const Hero = () => {
             <p className="text-2xl">Haikal Hakim Tamam</p>
           </div>
           <div className="absolute right-0 top-0 w-1/4">
-            <img src="/src/assets/hero-title-logo.png" alt="" />
+            <img src={hero_logo} alt="" />
           </div>
         </div>
       </div>

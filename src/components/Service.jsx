@@ -1,10 +1,18 @@
 import React from "react";
+import katalogImage from "/portofolio/FEED PROMO RTL 14-11-24-01.jpg";
+import feedIgImage from "/portofolio/FEED IG.jpg";
+import thumbnailIgImage from "/portofolio/THUMBNAIL.jpg";
+import brosurImage from "/portofolio/BROSUR COOKIES_page-0001.jpg";
+import kalenderImage from "/portofolio/KALENDER HAIKAL HAKIM T_page-0001.jpg";
+import infografisImage from "/portofolio/INFOGRAFIS - Haikal Hakim Tamam - Copy_page-0001 (1).jpg";
+import logoImage from "/portofolio/LOGO_page-0001.jpg";
+import posterImage from "/portofolio/Poster Cupcake Haikal Hakim tamam_page-0001.jpg";
 
 const Service = () => {
   const Card = ({ title, image }) => {
     return (
       <div className="flex flex-col justify-center items-center gap-4">
-        <img src={image} alt="" className="w-64 h-80 object-cover" />
+        <img src={image} alt="" className="w-64 h-80 object-cover rounded-lg" />
         <p className="text-3xl uppercase">{title}</p>
       </div>
     );
@@ -23,37 +31,16 @@ const Service = () => {
         </div>
         <div className="flex flex-col mt-10 gap-9 w-full">
           <div className="flex gap-7 w-full justify-center">
-            <Card
-              title="Katalog"
-              image="/src/assets/portofolio/FEED PROMO RTL 14-11-24-01.jpg"
-            />
-            <Card title="Feed IG" image="/src/assets/portofolio/FEED IG.jpg" />
-            <Card
-              title="Thumbnail IG"
-              image="/src/assets/portofolio/THUMBNAIL.jpg"
-            />
-            <Card
-              title="Brosur"
-              image="/src/assets/portofolio/BROSUR COOKIES_page-0001.jpg"
-            />
+            <Card title="Katalog" image={katalogImage} />
+            <Card title="Feed IG" image={feedIgImage} />
+            <Card title="Thumbnail IG" image={thumbnailIgImage} />
+            <Card title="Brosur" image={brosurImage} />
           </div>
           <div className="flex gap-7 w-full justify-center">
-            <Card
-              title="Kalender"
-              image="/src/assets/portofolio/KALENDER HAIKAL HAKIM T_page-0001.jpg"
-            />
-            <Card
-              title="Infografis"
-              image="/src/assets/portofolio/INFOGRAFIS - Haikal Hakim Tamam - Copy_page-0001 (1).jpg"
-            />
-            <Card
-              title="Logo"
-              image="/src/assets/portofolio/LOGO_page-0001.jpg"
-            />
-            <Card
-              title="Poster"
-              image="/src/assets/portofolio/Poster Cupcake Haikal Hakim tamam_page-0001.jpg"
-            />
+            <Card title="Kalender" image={kalenderImage} />
+            <Card title="Infografis" image={infografisImage} />
+            <Card title="Logo" image={logoImage} />
+            <Card title="Poster" image={posterImage} />
           </div>
         </div>
         <div className="w-full mt-20 flex justify-center">

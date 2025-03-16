@@ -27,32 +27,32 @@ function App() {
       </div>
       <Footer />
       <img
-        src="/src/assets/abs1.png"
+        src="/abs1.png"
         alt=""
         className="absolute top-[50rem] left-[-10rem] w-96 z-0"
       />
       <img
-        src="/src/assets/abs2.png"
+        src="/abs2.png"
         alt=""
         className="absolute top-[100rem] right-[-10rem] w-96 z-0"
       />
       <img
-        src="/src/assets/abs3.png"
+        src="/abs3.png"
         alt=""
         className="absolute top-[100rem] left-[-1rem] w-80 z-0"
       />
       <img
-        src="/src/assets/abs4.png"
+        src="/abs4.png"
         alt=""
         className="absolute top-[178rem] right-[-1rem] w-80 z-0"
       />
       <img
-        src="/src/assets/abs2.png"
+        src="/abs2.png"
         alt=""
         className="absolute top-[170rem] left-[-10rem] w-96 z-0"
       />
       <img
-        src="/src/assets/abs5.png"
+        src="/abs5.png"
         alt=""
         className="absolute top-[222rem] left-[-10rem] w-96 z-0"
       />

@@ -1,4 +1,9 @@
 import React from "react";
+import feedPromo from "/portofolio/FEED PROMO TASNIM-01.jpg";
+import katalogHaikal from "/portofolio/katalog HAIKAL HAKIM TAMAM_page-0001.jpg";
+import logoGeoadvance from "/portofolio/Logo geoadvance_page-0001.jpg";
+import posterCoffee from "/portofolio/poster coffee_page-0001 (1).jpg";
+import posterSuperKebab from "/portofolio/POSTER_page-0001.jpg";
 
 const Portfolio = () => {
   return (
@@ -10,7 +15,7 @@ const Portfolio = () => {
         <div className="w-2/3">
           <img
             className="rounded-xl w-full h-full object-cover"
-            src="/src/assets/portofolio/FEED PROMO TASNIM-01.jpg"
+            src={feedPromo}
             alt="Rumah Syariah Bogor advertisement"
           />
         </div>
@@ -19,14 +24,14 @@ const Portfolio = () => {
             <div className="h-1/2">
               <img
                 className="rounded-xl w-full h-full object-cover"
-                src="/src/assets/portofolio/katalog HAIKAL HAKIM TAMAM_page-0001.jpg"
+                src={katalogHaikal}
                 alt="Mom Bakery dessert advertisement"
               />
             </div>
             <div className="h-1/2">
               <img
                 className="rounded-xl w-full h-full object-cover"
-                src="/src/assets/portofolio/Logo geoadvance_page-0001.jpg"
+                src={logoGeoadvance}
                 alt="GeoAdvance SINJ logo"
               />
             </div>
@@ -35,14 +40,14 @@ const Portfolio = () => {
             <div className="h-1/2">
               <img
                 className="rounded-xl w-full h-full object-cover"
-                src="/src/assets/portofolio/poster coffee_page-0001 (1).jpg"
+                src={posterCoffee}
                 alt="Coffruit grand opening advertisement"
               />
             </div>
             <div className="h-1/2">
               <img
                 className="rounded-xl w-full h-full object-cover"
-                src="/src/assets/portofolio/POSTER_page-0001.jpg"
+                src={posterSuperKebab}
                 alt="Super Kebab buy 2 get 1 promo"
               />
             </div>

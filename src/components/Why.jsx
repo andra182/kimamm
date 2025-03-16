@@ -1,4 +1,6 @@
 import React from "react";
+import why1 from "/why-1.png";
+import why2 from "/why-2.png";
 
 const Why = () => {
   return (
@@ -24,11 +26,7 @@ const Why = () => {
                 </p>
               </div>
               <div className="w-1/2 flex justify-end">
-                <img
-                  src="/src/assets/why-1.png"
-                  alt=""
-                  className="h-32 w-332 object-cover"
-                />
+                <img src={why1} alt="" className="h-32 w-332 object-cover" />
               </div>
             </div>
             <div className="w-full flex bg-gray-300 rounded-lg p-4 justify-between">
@@ -44,7 +42,7 @@ const Why = () => {
               </div>
               <div className="w-1/2 flex justify-end">
                 <img
-                  src="/src/assets/why-2.png"
+                  src={why2}
                   alt=""
                   className="h-32 w-32 object-cover mr-9"
                 />

@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "/kimamm-logo.png";
 
 const Navbar = () => {
   return (
     <div className="navbar fixed w-full h-16 flex items-center justify-between bg-slate-300 px-8 z-50 font-myfont">
       <div className="brand flex items-center space-x-2">
         <div className="logo">
-          <img src="/src/assets/kimamm-logo.png" alt="" className="w-12" />
+          <img src={logo} alt="" className="w-12" />
         </div>
         <div className="name text-2xl font-semibold tracking-wider">Kimamm</div>
       </div>
